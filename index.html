@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/png" href="logo/logoo-removebg-preview.png">
+    <title>Rudra Pratap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body class="bg-[#EDDFB3]">
+    <nav class="fixed w-full z-10 bg-[#87805E] bg-opacity-90 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="#" class="text-white">
+                        <img src="logoo-removebg-preview.png" alt="Logo" class="w-10 h-10">
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="flex items-center space-x-8">
+                        <a href="#home" class="text-white hover:text-gray-200 transition-colors">Home</a>
+                        <a href="#projects" class="text-white hover:text-gray-200 transition-colors">Projects</a>
+                        <a href="#photos" class="text-white hover:text-gray-200 transition-colors">Photos</a>
+                        <a href="#contact" class="text-white hover:text-gray-200 transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="main-body" style="justify-content: center; margin: 0 auto;
+    height: 100vh;">
+    <!-- Navigation -->
+    
+    
+    <!-- Hero Section -->
+    <section style="padding: 0 10%;" id="home" class="min-h-screen flex items-center">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2">
+                    <h1 class="text-4xl sm:text-6xl font-bold text-gray-800 mb-4">Rudra Pratap Singh Tomar</h1>
+                    <h3 class="text-4xl md:text-2xl font-bold text-gray-800 mb-4">UI/UX Designer and Developer</h3>
+                    <p class="text-gray-600 mb-8">I aim to create designs that are not only beautiful but also accessible and inclusive.</p>
+                    <div class="flex space-x-4" >
+
+                        <a href="https://www.linkedin.com/in/rudra-pratap-singh-tomar-6a55271a5/" target="_blank">
+                            <img class="logo-hero" style="height: 2rem; width: 1rem;" src="linkedin-brands-solid.svg" alt="LinkedIn">
+                        </a>
+
+                        <a href="https://dribbble.com/RPS_tomar" target="_blank">
+                            <img class="logo-hero" style="height: 2rem; width: 1rem;" src="basketball-solid.svg" alt="Dribbble">
+                        </a>
+
+                        <a href="https://github.com/rudrapratap30" target="_blank">
+                            <img class="logo-hero" style="height: 2rem; width: 1rem;" src="square-github-brands-solid.svg" alt="Guithub">
+                        </a>
+
+                        <a href="https://www.instagram.com/_theartporium/" target="_blank">
+                            <img class="logo-hero" style="height: 2rem; width: 1rem;" src="square-instagram-brands-solid.svg" alt="Instagram">
+                        </a>
+
+                    
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-8 md:mt-0">
+                    <div class="w-64 h-64 mx-auto rounded-full bg-white shadow-lg">
+                        <img class="w-70 h-70 mx-auto rounded-full" src="DSC_0250.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section style="padding-left:10%; padding-right: 10%; id="projects" class="py-20 bg-[#D8CCA3]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Project Cards -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-50 cursor-pointer">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Project 1</h3>
+                        <p class="text-gray-600">Comming soon</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-50 cursor-pointer">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Project 2</h3>
+                        <p class="text-gray-600">Comming soon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Projects Section -->
+    <section style="padding-left:10%; padding-right: 10%; id="more-projects" class="py-20 bg-[#B09B71]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-8">More Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Additional Project Cards -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-50 cursor-pointer">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Project 3</h3>
+                        <p class="text-gray-600">Comming soon</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-50 cursor-pointer">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Project 4</h3>
+                        <p class="text-gray-600">Comming soon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Carousel Section -->
+    <section style="padding-left:10%; padding-right: 10%; id="photos" class="py-20 bg-[#87805E]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-8">Photo Gallery</h2>
+            <div class="relative max-w-6xl mx-auto">
+                <div class="carousel-container overflow-hidden">
+                    <div class="carousel-track flex transition-transform duration-300">
+                        <!-- Placeholder images - replace src with actual images -->
+                        <div class="carousel-item w-1/3 px-2 flex-shrink-0">
+                            <div class="bg-white rounded-lg overflow-hidden">
+                                <img src="https://via.placeholder.com/400x300" alt="Photo 1" class="w-full h-64 object-cover">
+                            </div>
+                        </div>
+                        <div class="carousel-item w-1/3 px-2 flex-shrink-0">
+                            <div class="bg-white rounded-lg overflow-hidden">
+                                <img src="https://via.placeholder.com/400x300" alt="Photo 2" class="w-full h-64 object-cover">
+                            </div>
+                        </div>
+                        <div class="carousel-item w-1/3 px-2 flex-shrink-0">
+                            <div class="bg-white rounded-lg overflow-hidden">
+                                <img src="https://via.placeholder.com/400x300" alt="Photo 3" class="w-full h-64 object-cover">
+                            </div>
+                        </div>
+                        <div class="carousel-item w-1/3 px-2 flex-shrink-0">
+                            <div class="bg-white rounded-lg overflow-hidden">
+                                <img src="https://via.placeholder.com/400x300" alt="Photo 4" class="w-full h-64 object-cover">
+                            </div>
+                        </div>
+                        <div class="carousel-item w-1/3 px-2 flex-shrink-0">
+                            <div class="bg-white rounded-lg overflow-hidden">
+                                <img src="https://via.placeholder.com/400x300" alt="Photo 5" class="w-full h-64 object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white bg-opacity-50 p-2 rounded-full hover:bg-opacity-75" id="prevBtn">
+                    <i data-feather="chevron-left" class="w-6 h-6"></i>
+                </button>
+                <button class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white bg-opacity-50 p-2 rounded-full hover:bg-opacity-75" id="nextBtn">
+                    <i data-feather="chevron-right" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="padding-left:10%; padding-right: 10%; id="contact" class="py-20 bg-[#615A3B]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center">Contact</h2>
+            <div class="flex justify-center space-x-16">
+
+                <a href="https://www.linkedin.com/in/rudra-pratap-singh-tomar-6a55271a5/" target="_blank" class="text-center group">
+                    <img style="height: 2.5rem; width: 2.5rem;" src="linkedin-brands-solid.svg" alt="LinkedIn">
+                    
+                    <span style="padding-top: 10px;" class="text-white text-sm block">LinkedIn</span>
+                </a>
+
+                <a href="https://dribbble.com/RPS_tomar" target="_blank" class="text-center group" target="_blank">
+                    <img style="height: 2.5rem; width: 2.5rem;" src="basketball-solid.svg" alt="Dribbble">
+                    <span style="padding-top: 10px;" class="text-white text-sm block">Dribbble</span>
+                </a>
+
+                <a href="mailto:rpstomar30@gmail.com" class="text-center group">
+                    <img style="height: 2.5rem; width: 2.5rem;" src="envelope-solid.svg" alt="LinkedIn">
+                    <span style="padding-top: 10px;" class="text-white text-sm block">G-mail</span>
+                </a>
+
+                <a href="https://www.instagram.com/_theartporium/" class="text-center group" target="_blank">
+                    <img class="logo-hero" style="height: 2.5rem; width: 2.5rem;" src="square-instagram-brands-solid.svg" alt="Instagram">
+                    <span style="padding-top: 10px;" class="text-white text-sm block">Instagram</span>
+                </a>
+
+                <a href="https://github.com/rudrapratap30" target="_blank" class="text-center group">
+                    <img style="height: 2.5rem; width: 2.5rem;" src="square-github-brands-solid.svg" alt="Guithub">
+                    <span style="padding-top: 10px;" class="text-white text-sm block">Github</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</div>
+</body>
+</html>
